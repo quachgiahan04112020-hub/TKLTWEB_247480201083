@@ -1,0 +1,39 @@
+h1 {
+  color: red;
+  font-size: 30px;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.hn1 {
+  color: rgb(0, 0, 0);
+    font-size: 13px;
+  font-family: "verdana", Times, serif;
+  
+}
+.hn2 {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-family: "tahoma", Times, serif;
+
+}
+.hn3 {
+  color: rgb(3, 3, 3);
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+ 
+}
+.hn4 {
+  color: rgb(223, 36, 36);
+  font-size: 13px;
+  font-family: "verdana", Times, serif;
+  
+  
+}
+ul {
+  color: rgb(89, 89, 121);
+  font-size: 13px;
+  font-family: "verdana", Times, serif;
+ 
+}
