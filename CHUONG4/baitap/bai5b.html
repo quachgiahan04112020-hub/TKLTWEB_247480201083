@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hiển thị Ngày, Tháng, Năm</title>
+  </head>
+  <body>
+    <script language="JavaScript">
+      // 1. Khai báo đối tượng Date để lấy thời gian hệ thống
+      var d = new Date();
+
+      // 2. Lấy ngày, tháng, năm bằng các phương thức của đối tượng Date
+      var ngay = d.getDate(); // Lấy ngày (1 - 31)
+      var thang = d.getMonth() + 1; // Lấy tháng (0 - 11, cần +1)
+      var nam = d.getFullYear(); // Lấy năm đầy đủ (YYYY)
+
+      // 3. Hiển thị thông tin ra trang web
+      document.write(
+        "<h3>Hôm nay là: Ngày " +
+          ngay +
+          " tháng " +
+          thang +
+          " năm " +
+          nam +
+          "</h3>",
+      );
+    </script>
+  </body>
+</html>

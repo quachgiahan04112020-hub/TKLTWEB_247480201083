@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Mở trang web bằng hàm open của đối tượng window</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <script language="JavaScript">
+      var chon = prompt("Nhập vào một số nguyên (1, 2, 3 hoặc số khác):", "");
+      chon = parseInt(chon); // Chuyển dữ liệu nhập vào sang số nguyên
+
+      switch (chon) {
+        case 1:
+          window.open("http://blu.edu.vn");
+          break;
+        case 2:
+          window.open("http://ctu.edu.vn");
+          break;
+        case 3:
+          window.open("https://vndoc.com");
+          break;
+        default:
+          window.open("https://meta.vn");
+          break;
+      }
+    </script>
+  </body>
+</html>
