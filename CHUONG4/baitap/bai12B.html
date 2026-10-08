@@ -1,0 +1,17 @@
+<HTML>
+    <HEAD>
+        <TITLE>Đọc giá trị trong phần tử text</TITLE>
+    </HEAD>
+    
+    <BODY>
+        <h2>Nhập họ tên và năm sinh</h2>
+    
+        <INPUT type="text" name="HoTen">
+        <INPUT type="text" name="Namsinh">
+    
+        <INPUT type="button"
+               name="HienThi"
+               value="Hiển thị"
+               onClick="alert(document.getElementsByName('HoTen')[0].value + '\n' + document.getElementsByName('Namsinh')[0].value);">
+    </BODY>
+    </HTML>

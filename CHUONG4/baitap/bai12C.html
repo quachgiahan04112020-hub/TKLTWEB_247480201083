@@ -1,0 +1,26 @@
+<HTML>
+    <HEAD>
+        <TITLE>Thay đổi giá trị trong Textbox</TITLE>
+    </HEAD>
+    
+    <BODY>
+    
+        <h2>Nhập họ và tên</h2>
+    
+        <INPUT type="text" name="Ho" value="Họ">
+    
+        <INPUT type="text" name="Ten" value="Tên">
+    
+        <INPUT type="button"
+               name="HienThi"
+               value="Hiển thị"
+               onClick="document.getElementsByName('HoTen')[0].value =
+                        document.getElementsByName('Ho')[0].value + ' ' +
+                        document.getElementsByName('Ten')[0].value;">
+    
+        <BR><BR>
+    
+        <INPUT type="text" name="HoTen" value="">
+    
+    </BODY>
+    </HTML>
